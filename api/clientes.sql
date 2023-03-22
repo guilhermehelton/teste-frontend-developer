@@ -10,8 +10,6 @@ SET time_zone = "+00:00";
 -- Banco de dados: `api`
 --
 
-CREATE DATABASE IF NOT EXISTS api;
-
 --
 -- Estrutura da tabela `clientes`
 --
