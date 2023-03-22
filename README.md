@@ -1,53 +1,43 @@
-# Teste para estágio Frontend e Full-Stack
+# Teste full-stack EllosDesign
 
-## Sobre a Ellos Design
+## Documentação do projeto
 
-A **Ellos Design** é uma agência de marketing e criação de sites localizada em Guarulhos / SP. Somos uma empresa em constante evolução e sempre estamos abertos para pessoas que gostem de tecnologia e queiram trabalhar na área, mas que principalmente queiram aprender e crescer com a nossa empresa.
+### Tecnologias usadas
 
-## Sobre o teste
+- HTML - Estruturação da Página
+- [SASS](https://sass-lang.com/) - Para pré-processamento do CSS
+- JS - Para criação de scripts para a página
+- PHP - Para criação da API do back-end
+- MySQL - Banco de dados
 
-Este é um teste prático que desenvolvemos para a avaliação dos candidatos participantes de nosso processo seletivo para vagas de Frontend ou Full-Stack.
+### Link do projeto ao vivo:
 
-## Tecnologias para o desafio
+https://teste-frontend-developer-production.up.railway.app/
 
-Você deve utilizar as seguintes tecnologias para o desenvolvimento do teste:
+- _OBS_.: O link para visualisar o projeto ao vivo serve apenas para a página estática, se desejar testar a API e verificar se o formulário está enviando as informações para o banco de dados, será necessário rodar o mesmo localmente na sua máquina.
 
-- HTML5
-- CSS
-- JavaScript ou jQuery
-- PHP (Para Full-Stack)
-- MySQL (Para Full-Stack)
+### Requisitos necessário para rodar o projeto localmente
 
-## O que nos impressionaria no teste
+1. Recomenda-se o uso do XAMPP como servidor local pois seu instalador já possui o MySQL para rodar a API. Para fazer o download clique [aqui](https://www.apachefriends.org/pt_br/index.html).
+2. (NÂO OBRIGATÓRIO) Caso seja tenha desejo em alterar algum CSS da página, será necessário ter o SASS instalado na sua máquina para poder compilar os estilos SCSS em arquivos CSS. Para instala-lo basta seguir as instruções do site oficial da biblioteca clicando [aqui](https://sass-lang.com/install).
 
-- Utilização de um pré-processador para o CSS (De preferência o Sass)
-- Aplicação de animações em CSS (Ex: Animações ao realizar scroll)
-- Ver o teste rodando em live (Bucket estático S3, Heroku, Firebase Hosting, etc)
-- Documentação do projeto (Com instruções para executar)
+### Como rodar o projeto
 
-## O que avaliaremos no seu teste
+1. Primeiramente faça o clone do repositório no diretório "/htdocs" localizado na pasta raiz do XAMPP utilizando o comando:
 
-- Criatividade
-- Organização do código
-- Performance do código
-- Boas práticas de desenvolvimento
-- Documentação do código
-- Adaptação mobile (layout responsivo)
-- Documentação do projeto (Com instruções para executar)
+```sh
+    git clone https://github.com/guilhermehelton/teste-frontend-developer.git
+```
 
-## Etapas para realização do teste
+- Também é possível clonar em qualquer outra pasta do seu computador, basta alterar a pasta que o XAMPP irá servir. Clique [aqui](https://www.servti.com/2019/01/08/como-alterar-pasta-padrao-htdocs-do-xampp/) para ler o tutorial de como fazer isso.
 
-- Faça um [fork](https://github.com/Ellos-Design/teste-frontend-developer/fork) desse projeto em sua conta do GitHub
-- Realize o desafio proposto
-- Faça um push para seu repositório com o desafio implementado
-- Envie um email para (vagas@ellosdesign.com.br) com a URL do seu projeto avisando que você concluiu o teste
+2. Inicie o serviço "APACHE" e o "MySQL" no XAMPP.
+3. Acesse o phpmyadmin e crie um banco de dados com o nome "_api_" se você já possuir um banco criado basta alterar o valor da constante "\_DB_NAME" para o nome do seu banco de dados já existente
+4. E importe o arquivo "clientes.sql" localizado em ./api/clientes.sql.
+5. Com isso o projeto já está configurando e pronto para ser acessado.
 
-## O desafio
+### Features
 
-Você deverá desenvolver uma landing page seguindo a estrutura exibida na imagem abaixo. Você pode utilizar os textos e imagens de sua preferência para a criação da página.
-
-#### Full-Stack
-
-Deixar o formulário da landing page funcional, onde ao preencher as informações e clicar para enviar, o formulário será submetido e os dados deverão ser gravados em um banco de dados (Neste caso será necessário nos enviar o arquivo SQL para podermos implementar o banco para avaliação do teste).
-
-![Template da página a ser desenvolvida](https://github.com/Ellos-Design/teste-frontend-developer/blob/master/wireframe.png?raw=true)
+- Integração com a API criada, para cadastrar as mensagens no banco de dados
+- Animações utilizando a biblioteca ScollReveal
+- Uso de SASS como pré-processador CSS
