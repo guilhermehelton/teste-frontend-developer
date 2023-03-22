@@ -57,13 +57,15 @@ header img {
     align-items: center;
     text-align: center;
   }
-  .first-section .sloganDiv {
-    margin: 0;
-  }
 }
 
 .slogan-div {
   margin-right: 2rem;
+}
+@media (max-width: 730px) {
+  .slogan-div {
+    margin: 0;
+  }
 }
 .slogan-div .nome-empresa {
   margin: 0;
