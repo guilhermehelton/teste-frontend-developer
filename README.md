@@ -19,7 +19,7 @@ https://teste-frontend-developer-production.up.railway.app/
 ### Requisitos necessários para rodar o projeto localmente
 
 1. Recomenda-se o uso do XAMPP como servidor local pois seu instalador já possui o MySQL para rodar a API. Para fazer o download clique [aqui](https://www.apachefriends.org/pt_br/index.html).
-2. (NÂO OBRIGATÓRIO) Caso seja tenha desejo em alterar algum CSS da página, será necessário ter o SASS instalado na sua máquina para poder compilar os estilos SCSS em arquivos CSS. Para instala-lo basta seguir as instruções do site oficial da biblioteca clicando [aqui](https://sass-lang.com/install).
+2. (NÂO OBRIGATÓRIO) Caso tenha desejo em alterar algum CSS da página, será necessário ter o SASS instalado na sua máquina para poder compilar os estilos SCSS em arquivos CSS. Para instala-lo basta seguir as instruções do site oficial da biblioteca clicando [aqui](https://sass-lang.com/install).
 
 ### Como rodar o projeto
 
