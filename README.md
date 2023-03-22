@@ -1,6 +1,4 @@
-# Teste full-stack EllosDesign
-
-## Documentação do projeto
+# Documentação do projeto
 
 ### Tecnologias usadas
 
