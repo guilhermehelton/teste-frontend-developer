@@ -241,7 +241,7 @@
       const formData = new FormData(form);
       const data = Object.fromEntries(formData);
 
-      fetch("http://localhost/api/clientes", {
+      fetch("./api/clientes", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
