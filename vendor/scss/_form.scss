@@ -5,9 +5,6 @@
   @include tablet {
     @include flexBox(column, center, center);
     text-align: center;
-    .sloganDiv {
-      margin: 0;
-    }
   }
 
   background-image: linear-gradient(rgba(35, 47, 63, 1), rgba(35, 47, 63, 0.7)),
@@ -22,6 +19,9 @@
 }
 
 .slogan-div {
+  @include tablet {
+    margin: 0;
+  }
   margin-right: 2rem;
 
   .nome-empresa {
