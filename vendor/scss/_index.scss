@@ -1,0 +1,26 @@
+@import "_variables";
+@import "_header";
+@import "_form";
+@import "_sobre";
+@import "_beneficios";
+@import "_faq";
+@import "_chamada-acao";
+@import "_footer";
+@import "_media-queries";
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: $background-color;
+  margin: 0;
+  padding: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+p {
+  line-height: 1.5rem;
+}

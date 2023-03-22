@@ -1,0 +1,11 @@
+@import "_variables";
+
+.footer {
+  background-color: $light-blue;
+  padding: 1.3rem 0;
+  color: $background-color;
+  text-align: center;
+  p {
+    margin: 0;
+  }
+}

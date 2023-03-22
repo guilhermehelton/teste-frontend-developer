@@ -1,0 +1,61 @@
+.chamadaAcaoSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  background-color: #5b6e81;
+  color: #fff;
+  padding: 4rem 0;
+}
+
+.chamadaAcaoActionDiv,
+.chamadaAcaoTextDiv {
+  min-width: 32%;
+  max-width: 32%;
+}
+
+.chamadaAcaoTextDiv {
+  margin-right: 2rem;
+}
+.chamadaAcaoTextDiv h1 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+.chamadaAcaoTextDiv p {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.chamadaAcaoActionDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #5b6e81;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 3px 3px 4px #666;
+  padding: 2rem;
+}
+
+.chamadaAcaoButton {
+  background-color: #5b6e81;
+  padding: 0.8rem 20%;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 1px 1px 4px #666;
+}
+
+.chamadaAcaoButton:hover {
+  background-color: #15384c;
+}
+
+.legendaBotao {
+  font-size: 0.7rem;
+}/*# sourceMappingURL=chamadaAcao.css.map */

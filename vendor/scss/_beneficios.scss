@@ -1,0 +1,73 @@
+@import "_variables";
+@import "_media-queries";
+
+.beneficios-section {
+  background-color: $light-gray;
+  @include flexBox(column, center, center);
+  min-width: 100vw;
+
+  padding: $section-y-padding;
+  text-align: center;
+  h1 {
+    font-size: $section-header-font-size;
+    font-weight: 900;
+    color: $light-blue;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+.listagem-beneficios {
+  @include flexBox(row, center, center);
+  flex-wrap: wrap;
+  max-width: 100%;
+  padding: 0 15vw;
+  justify-items: center;
+
+  li {
+    @include tablet {
+      @include flexBox(column, center, center);
+      img {
+        margin-bottom: 1.5rem;
+      }
+    }
+    @include flexBox(row, center, center);
+    list-style-type: none;
+    min-width: 50%;
+    max-width: 50%;
+    margin: 1rem 0;
+
+    img {
+      width: 3rem;
+    }
+  }
+}
+
+.beneficio-textbox {
+  margin: 0 20px;
+  h2 {
+    color: $dark-blue;
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 900;
+  }
+
+  p {
+    color: $light-blue;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+  }
+}
+
+.beneficios-button {
+  text-decoration: none;
+  color: $background-color;
+  font-weight: 700;
+  background-color: $dark-blue;
+  padding: 0.5rem 2rem;
+  border-radius: $border-radius - 2px;
+}
+
+.beneficios-button:hover {
+  background-color: $send-button-hover;
+}

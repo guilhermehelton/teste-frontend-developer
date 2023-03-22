@@ -1,0 +1,52 @@
+@import "_variables";
+@import "_media-queries";
+
+// Tira a visualização para as animações
+.animate {
+  visibility: hidden;
+}
+
+.presentation-section {
+  @include tablet {
+    @include flexBox(column, center, center);
+    .presentation-image {
+      display: none;
+    }
+    .presentation-text {
+      margin: 0 1.5rem;
+      width: 80vw;
+    }
+  }
+
+  @include flexBox(row, center, center);
+  margin: $section-y-padding;
+}
+
+.presentation-image {
+  background-image: linear-gradient(
+      rgba(35, 47, 63, 0.5),
+      rgba(35, 47, 63, 0.5)
+    ),
+    url("../../img/img1.jpg");
+  background-size: cover;
+  width: 30vw;
+  min-height: 100%;
+  border: 5px solid $light-blue;
+  border-radius: $border-radius;
+  img {
+    width: 100%;
+    opacity: 0;
+  }
+}
+
+.presentation-text {
+  width: 40vw;
+
+  margin-left: 40px;
+  color: $light-blue;
+
+  h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+  }
+}

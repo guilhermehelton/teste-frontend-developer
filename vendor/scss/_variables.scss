@@ -1,0 +1,27 @@
+$background-color: #fff;
+//$light-blue: #9aadbd;
+$light-blue: #232f3f;
+//$dark-blue: #5b6e81;
+$dark-blue: #fb0552;
+$form-background-color: #101c28;
+$second-dark-blue: #20536f;
+$footer-background-color: #44596a;
+$contact-button-hover: #ddd;
+$send-button-hover: #15384c;
+$light-gray: #eff0f5;
+$padding-align-center: 20px 10vw;
+$border-radius: 5px;
+$section-header-font-size: 2.3rem;
+$section-y-padding: 4rem 0;
+$tamanhos_telas: (
+  "small": 500px,
+  "medium": 730px,
+  "large": 1280px,
+);
+
+@mixin flexBox($direction, $justify-direction, $align-direction) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify-direction;
+  align-items: $align-direction;
+}

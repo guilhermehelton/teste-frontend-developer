@@ -1,0 +1,70 @@
+@import "_variables";
+@import "_media-queries";
+
+.chamada-acao-section {
+  @include tablet {
+    @include flexBox(column, center, center);
+    .chamada-acao-text-div,
+    .chamada-acao-button-div {
+      max-width: 80%;
+    }
+    .chamada-acao-text-div {
+      text-align: center;
+    }
+  }
+  @include flexBox(row, center, center);
+  max-width: 100vw;
+  background-color: $dark-blue;
+  color: $background-color;
+  padding: $section-y-padding;
+}
+
+.chamada-acao-button-div,
+.chamada-acao-text-div {
+  min-width: 32%;
+  max-width: 32%;
+}
+
+.chamada-acao-text-div {
+  margin-right: 2rem;
+
+  h1 {
+    margin: 0;
+    margin-bottom: 0.5rem;
+    font-size: $section-header-font-size;
+    font-weight: 900;
+  }
+
+  p {
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+}
+
+.chamada-acao-button-div {
+  @include flexBox(column, center, center);
+  background-color: $background-color;
+  color: $dark-blue;
+  text-align: center;
+  border-radius: $border-radius;
+  box-shadow: 3px 3px 4px #666;
+  padding: 2rem;
+}
+
+.chamada-acao-button {
+  background-color: $dark-blue;
+  padding: 0.8rem 20%;
+  border-radius: $border-radius;
+  text-decoration: none;
+  color: $background-color;
+  font-weight: 700;
+  box-shadow: 1px 1px 4px #666;
+}
+
+.chamada-acao-button:hover {
+  background-color: $send-button-hover;
+}
+
+.legenda-botao {
+  font-size: 0.7rem;
+}

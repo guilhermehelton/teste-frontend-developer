@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9aadbd;
+  padding: 20px 10vw;
+}
+header img {
+  min-width: 100px;
+  max-width: 250px;
+  filter: invert(1);
+}
+
+.contactNumberButton {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.contactNumberButton a {
+  text-decoration: none;
+  color: #5b6e81;
+  font-weight: bold;
+}
+
+.contactNumberButton:hover {
+  cursor: pointer;
+  background-color: #ddd;
+}/*# sourceMappingURL=header.css.map */

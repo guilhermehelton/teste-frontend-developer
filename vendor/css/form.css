@@ -1,0 +1,77 @@
+.firstSection {
+  background-color: #9aadbd;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10vw;
+  min-height: 75vh;
+}
+.firstSection h1 {
+  font-size: 3.3rem;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+
+.sloganDiv {
+  margin-right: 2rem;
+}
+
+.askForm {
+  background-color: #fff;
+  color: #5b6e81;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 350px;
+  min-width: 300px;
+  padding: 1.5rem 1rem;
+  border-radius: 5px;
+}
+.askForm p {
+  font-size: 1.2rem;
+  margin: 0.5rem;
+  margin-bottom: 1rem;
+}
+.askForm input,
+.askForm .inputTextBox {
+  width: 90%;
+  color: #5b6e81;
+  border-radius: 3px;
+  border: 1px solid #5b6e81;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  box-sizing: border-box;
+}
+.askForm input:focus {
+  outline: none;
+}
+.askForm input::-moz-placeholder, .askForm .inputTextBox::-moz-placeholder {
+  color: #5b6e81;
+}
+.askForm input::placeholder,
+.askForm .inputTextBox::placeholder {
+  color: #5b6e81;
+}
+.askForm .inputTextBox {
+  min-height: 7rem;
+  resize: none;
+}
+.askForm .inputTextBox:focus {
+  outline: none;
+}
+.askForm .sendButton {
+  background-color: #5b6e81;
+  color: #fff;
+  font-weight: 700;
+}
+.askForm .sendButton:hover {
+  background-color: #15384c;
+  cursor: pointer;
+}/*# sourceMappingURL=form.css.map */

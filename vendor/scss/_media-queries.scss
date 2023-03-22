@@ -1,0 +1,19 @@
+@import "_variables";
+
+@mixin celular {
+  @media (max-width: map-get($tamanhos_telas, small)) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: map-get($tamanhos_telas, medium)) {
+    @content;
+  }
+}
+
+@mixin computador {
+  @media (max-width: map-get($tamanhos_telas, large)) {
+    @content;
+  }
+}

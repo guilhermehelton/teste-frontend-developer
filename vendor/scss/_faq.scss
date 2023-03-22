@@ -1,0 +1,25 @@
+@import "_variables";
+
+.faq-section {
+  @include flexBox(column, center, center);
+  color: $light-blue;
+  padding: $section-y-padding;
+
+  h1 {
+    color: $dark-blue;
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: $section-header-font-size;
+  }
+}
+
+.faq-list {
+  padding: 0;
+  li {
+    list-style-type: none;
+    border: 2px solid $light-blue;
+    border-radius: $border-radius;
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+}

@@ -1,0 +1,98 @@
+@import "_variables";
+@import "_media-queries";
+
+.first-section {
+  @include tablet {
+    @include flexBox(column, center, center);
+    text-align: center;
+    .sloganDiv {
+      margin: 0;
+    }
+  }
+
+  background-image: linear-gradient(rgba(35, 47, 63, 1), rgba(35, 47, 63, 0.7)),
+    url("../../img/section-1-background.jpg");
+  background-size: cover;
+  background-color: $light-blue;
+  color: $background-color;
+  @include flexBox(row, space-between, center);
+  padding: $padding-align-center;
+
+  min-height: 75vh;
+}
+
+.slogan-div {
+  margin-right: 2rem;
+
+  .nome-empresa {
+    margin: 0;
+    color: $dark-blue;
+  }
+
+  h1 {
+    font-size: $section-header-font-size + 1rem;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.ask-form {
+  background-color: $form-background-color;
+  color: $background-color;
+  font-weight: 700;
+  @include flexBox(column, flex-start, center);
+  min-height: 350px;
+  min-width: 300px;
+  padding: 1.5rem 1rem;
+  border-radius: $border-radius;
+
+  p {
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  input,
+  .input-textbox {
+    width: 90%;
+    color: $form-background-color;
+    border-radius: $border-radius - 2px;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    box-sizing: border-box;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  input::placeholder,
+  .input-textbox::placeholder {
+    color: $form-background-color;
+  }
+
+  .input-textbox {
+    min-height: 7rem;
+    resize: none;
+  }
+
+  .input-textbox:focus {
+    outline: none;
+  }
+
+  .send-button {
+    background-color: $dark-blue;
+    color: $background-color;
+    font-weight: 700;
+  }
+
+  .send-button:hover {
+    background-color: $send-button-hover;
+    cursor: pointer;
+  }
+}
