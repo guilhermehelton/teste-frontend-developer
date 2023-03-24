@@ -30,7 +30,7 @@ https://teste-frontend-developer-production.up.railway.app/
 - Também é possível clonar em qualquer outra pasta do seu computador, basta alterar a pasta que o XAMPP irá servir. Clique [aqui](https://www.servti.com/2019/01/08/como-alterar-pasta-padrao-htdocs-do-xampp/) para ler o tutorial de como fazer isso.
 
 2. Inicie o serviço "APACHE" e o "MySQL" no XAMPP.
-3. Acesse o phpmyadmin e crie um banco de dados com o nome "_api_" se você já possuir um banco criado basta alterar o valor da constante "\_DB_NAME" para o nome do seu banco de dados já existente
+3. Acesse o phpmyadmin e crie um banco de dados com o nome "_api_" se você já possuir um banco criado basta alterar o valor da constante "\_DB_NAME" no arquivo "config.php" para o nome do seu banco de dados já existente
 4. E importe o arquivo "clientes.sql" localizado em ./api/clientes.sql.
 5. Com isso o projeto já está configurando e pronto para ser acessado.
 
