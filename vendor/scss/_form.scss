@@ -10,7 +10,7 @@
   background-image: linear-gradient(rgba(35, 47, 63, 1), rgba(35, 47, 63, 0.7)),
     url("../../img/section-1-background.jpg");
   background-size: cover;
-  background-color: $light-blue;
+  background-color: $dark-blue;
   color: $background-color;
   @include flexBox(row, space-between, center);
   padding: $padding-align-center;
@@ -26,7 +26,7 @@
 
   .nome-empresa {
     margin: 0;
-    color: $dark-blue;
+    color: $pink;
   }
 
   h1 {
@@ -86,7 +86,7 @@
   }
 
   .send-button {
-    background-color: $dark-blue;
+    background-color: $pink;
     color: $background-color;
     font-weight: 700;
   }

@@ -2,11 +2,11 @@
 
 .faq-section {
   @include flexBox(column, center, center);
-  color: $light-blue;
+  color: $dark-blue;
   padding: $section-y-padding;
 
   h1 {
-    color: $dark-blue;
+    color: $pink;
     margin: 0;
     margin-bottom: 1rem;
     font-size: $section-header-font-size;
@@ -17,7 +17,7 @@
   padding: 0;
   li {
     list-style-type: none;
-    border: 2px solid $light-blue;
+    border: 2px solid $dark-blue;
     border-radius: $border-radius;
     padding: 1rem;
     margin: 0.5rem;

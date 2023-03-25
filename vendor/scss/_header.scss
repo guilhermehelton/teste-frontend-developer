@@ -3,7 +3,7 @@
 
 header {
   @include flexBox(row, space-between, center);
-  background-color: $light-blue;
+  background-color: $dark-blue;
   padding: $padding-align-center;
   img {
     min-width: 100px;
@@ -26,7 +26,7 @@ header {
   border-radius: $border-radius;
   a {
     text-decoration: none;
-    color: $light-blue;
+    color: $dark-blue;
     font-weight: bold;
   }
 }

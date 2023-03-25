@@ -11,7 +11,7 @@
   h1 {
     font-size: $section-header-font-size;
     font-weight: 900;
-    color: $light-blue;
+    color: $dark-blue;
     margin: 0;
     margin-bottom: 1rem;
   }
@@ -46,14 +46,14 @@
 .beneficio-textbox {
   margin: 0 20px;
   h2 {
-    color: $dark-blue;
+    color: $pink;
     margin: 0;
     font-size: 1.1rem;
     font-weight: 900;
   }
 
   p {
-    color: $light-blue;
+    color: $dark-blue;
     margin: 0.5rem 0;
     font-size: 0.9rem;
   }
@@ -63,7 +63,7 @@
   text-decoration: none;
   color: $background-color;
   font-weight: 700;
-  background-color: $dark-blue;
+  background-color: $pink;
   padding: 0.5rem 2rem;
   border-radius: $border-radius - 2px;
 }

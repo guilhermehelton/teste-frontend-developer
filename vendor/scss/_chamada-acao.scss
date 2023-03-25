@@ -14,7 +14,7 @@
   }
   @include flexBox(row, center, center);
   max-width: 100vw;
-  background-color: $dark-blue;
+  background-color: $pink;
   color: $background-color;
   padding: $section-y-padding;
 }
@@ -44,7 +44,7 @@
 .chamada-acao-button-div {
   @include flexBox(column, center, center);
   background-color: $background-color;
-  color: $dark-blue;
+  color: $pink;
   text-align: center;
   border-radius: $border-radius;
   box-shadow: 3px 3px 4px #666;
@@ -52,7 +52,7 @@
 }
 
 .chamada-acao-button {
-  background-color: $dark-blue;
+  background-color: $pink;
   padding: 0.8rem 20%;
   border-radius: $border-radius;
   text-decoration: none;
